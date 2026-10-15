@@ -22,29 +22,29 @@ A multi-agent AI system I built alone in Node.js, with no orchestration framewor
 - **Observability:** 1,000+ tests, every API call logged with its cost, Prometheus and Grafana across 33 gauges. Under $5 a month since May 2026.
 - Voice and chat in English, Urdu and Punjabi.
 
-### [Convolvger](https://github.com/bilalmughal1/convolvger) — AI conversation archiver · [PyPI](https://pypi.org/project/convolvger/)
+### [Convolvger](https://github.com/fahadbilalsaleem/convolvger) — AI conversation archiver · [PyPI](https://pypi.org/project/convolvger/)
 
 Turns public share links from eight AI providers (ChatGPT, Claude, Gemini, Grok, DeepSeek, Kimi, Qwen, Perplexity) into a canonical, schema-versioned archive with deterministic Markdown and JSON export, including a numbered Sources list for the pages an answer cites. Local-first: no LLM, no credentials, no telemetry. Every gap in what a provider served is recorded as a structured finding, never silently dropped, and `convolvger verify` checks an archive is complete and faithful. Nine releases, 0.1.0 to 0.7.0.
 
 `Python 3.12+` `Pydantic` `Typer` `httpx` `pytest` `mypy --strict` `GitHub Actions`
 
-### [Taphonomy](https://github.com/bilalmughal1/taphonomy) — FAT32 evidence recovery in Rust
+### [Taphonomy](https://github.com/fahadbilalsaleem/taphonomy) — FAT32 evidence recovery in Rust
 
 Recovers deleted and quick-format-orphaned files from FAT32 disk images. Read-only, SHA-256 hashing, and a named refusal wherever a recovery can't be supported. Checked against three NIST CFReDS images and The Sleuth Kit 4.12.1: every file it recovered matched NIST's documented sectors. 17 ADRs, 8 recorded experiments, 295 tests.
 
 `Rust` `SHA-256` `FAT32` `GitHub Actions`
 
-### [Orbital Viewer](https://github.com/bilalmughal1/orbital-viewer) — Satellite tasking · [live demo](https://geo.fahadbilal.com)
+### [Orbital Viewer](https://github.com/fahadbilalsaleem/orbital-viewer) — Satellite tasking · [live demo](https://geo.fahadbilal.com)
 
 A 3D globe with live SGP4 propagation over CelesTrak TLEs, real Copernicus Sentinel-2 imagery through the STAC API, and GiST-indexed PostGIS spatial matching across coverage, cloud cover and timing. Simulated elements are labelled as simulated.
 
 `React 19` `TypeScript` `FastAPI` `PostgreSQL 16` `PostGIS` `MapLibre GL JS` `Docker`
 
-### [Project Ephemeris](https://github.com/bilalmughal1/project-ephemeris) — Satellite passes
+### [Project Ephemeris](https://github.com/fahadbilalsaleem/project-ephemeris) — Satellite passes
 
 Built in three days as a technical assessment: about 60 MB of orbital-track data processed with DuckDB Spatial behind a Node/Express/TypeScript API, visualised on MapLibre GL JS, containerised, with CI and Vitest.
 
-### [Web Performance Monitor](https://github.com/bilalmughal1/performance-monitor) — Core Web Vitals over time · [live demo](https://performance-monitor-beta.vercel.app)
+### [Web Performance Monitor](https://github.com/fahadbilalsaleem/performance-monitor) — Core Web Vitals over time · [live demo](https://performance-monitor-beta.vercel.app)
 
 Runs PageSpeed Insights audits on mobile and desktop and keeps every run, so LCP, INP, CLS, SEO and accessibility can be tracked over time. Filters, charts, CSV export, and per-user data kept separate with Supabase row-level security.
 
